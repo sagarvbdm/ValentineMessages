@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_propose"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dp.a2017sexyvalentinemessages.Propose">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:dividerHeight="10dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/plv" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7341848752460960/6494867938"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
